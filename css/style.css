@@ -1,0 +1,15 @@
+.phone {
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+  margin: 10px auto;
+  background-image: url(../img/fullsize.png);
+  background-size: 100%;
+  border: 2px solid brown;
+  background-position: top;
+  transition: 0.8s;
+}
+.phone:hover {
+  background-position: bottom;
+  transition: 12s;
+}
